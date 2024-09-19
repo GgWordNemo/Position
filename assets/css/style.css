@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Reg;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1060px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.main {
+  background-image: url(../img/HERO.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__wrap {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 40px;
+  margin-top: -80px;
+  position: relative;
+}
+.about__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.about__dog {
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: 1;
+}
+.about__blob {
+  position: absolute;
+  bottom: -30px;
+  left: 50px;
+}
+.about__we {
+  width: 583px;
+  padding-top: 100px;
+  padding-left: 83px;
+}
+.about__we-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.about__we-title {
+  color: #F5F5F5;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Robot-Bold;
+}
+.about__title {
+  color: #fff;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: Robot-Black;
+  margin-bottom: 25px;
+}
+.about__text {
+  color: #F5F5F5;
+  font-size: 16px;
+  font-family: Robot-Reg;
+  margin-bottom: 25px;
+  width: 846px;
+  padding-left: 83px;
+}
+.about__primise {
+  padding-top: 200px;
+}
+.about__primise-box {
+  display: flex;
+  align-items: center;
+  width: 583px;
+  margin-bottom: 33px;
+}
+.about__primise-box-text {
+  color: #5D62B5;
+  font-size: 12px;
+  font-family: Robot-Bold;
+}
+.about__primise-text {
+  color: #000;
+  font-size: 36px;
+  font-family: Robot-Black;
+}
+.about__cards {
+  display: flex;
+  padding-top: 60px;
+}
+.about__card {
+  width: 324px;
+  height: 148px;
+}
+.about__card-img {
+  position: absolute;
+}
+.about__card-title {
+  padding-left: 80px;
+  margin-bottom: 20px;
+  color: #F2726F;
+  font-size: 19px;
+  font-family: Robot-Black;
+}
+.about__card-text {
+  padding-left: 80px;
+  color: #4B4B4B;
+  font-size: 16px;
+  font-family: Robot-Reg;
+}
+
+.appointment {
+  margin: 0 auto;
+  background-color: #29C3BE;
+  width: 1440px;
+  height: 500px;
+  display: flex;
+}
+.appointment__img {
+  position: relative;
+}
+.appointment__blob3 {
+  position: absolute;
+  z-index: 2;
+}
+.appointment__blob2 {
+  position: absolute;
+  bottom: 1px;
+}
+.appointment__stylize1 {
+  position: absolute;
+  z-index: 1;
+  bottom: 86px;
+}
+.appointment__pup {
+  position: absolute;
+  bottom: 50px;
+}
+.appointment__text {
+  width: 411px;
+  height: 129px;
+  padding-top: 114px;
+  color: #fff;
+  font-size: 36px;
+  font-family: Robot-Black;
+}
+.appointment__button {
+  height: 48px;
+  width: 210px;
+  background-color: #F2726F;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.appointment__link {
+  color: #fff;
+  font-size: 12px;
+  font-family: Robot-Bold;
+}

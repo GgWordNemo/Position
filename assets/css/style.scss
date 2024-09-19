@@ -1,0 +1,195 @@
+
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Reg;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1060px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.main{
+    background-image: url(../img/HERO.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about{
+    &__wrap{
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 40px;
+        margin-top: -80px;
+        position: relative;
+    }
+    &__dots{
+        position: absolute;
+        top: -110px;
+        right: -70px;
+    }
+    &__dog{
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+    }
+    &__blob{
+        position: absolute;
+        bottom: -30px;
+        left: 50px;
+    }
+
+    &__we{
+        width: 583px;
+        padding-top: 100px;
+        padding-left: 83px;
+    }
+
+    &__we-flex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 33px;
+    }
+    &__we-title{
+        color: #F5F5F5;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: Robot-Bold;
+    }
+    &__title{
+        color: #fff;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-family: Robot-Black;
+        margin-bottom: 25px;
+    }
+    &__text{
+        color: #F5F5F5;
+        font-size: 16px;
+        font-family: Robot-Reg;
+        margin-bottom: 25px;
+        width: 846px;
+        padding-left: 83px;
+    }
+    &__primise{
+        padding-top: 200px;
+    }
+    &__primise-box{
+        display: flex;
+        align-items: center;
+        width: 583px;
+        margin-bottom: 33px;
+    }
+    &__primise-box-text{
+        color: #5D62B5;
+        font-size: 12px;
+        font-family: Robot-Bold;
+    }
+    &__primise-text{
+        color: #000;
+        font-size: 36px;
+        font-family: Robot-Black;
+    }
+    &__cards{
+        display: flex;
+        padding-top: 60px;
+    }
+    &__card{
+        width: 324px;
+        height: 148px;
+    }
+    &__card-img{
+        position: absolute;
+
+    }
+    &__card-title{
+        padding-left: 80px;
+        margin-bottom: 20px;
+        color: #F2726F;
+        font-size: 19px;
+        font-family: Robot-Black;
+    }
+    &__card-text{
+        padding-left: 80px;
+        color: #4B4B4B;
+        font-size: 16px;
+        font-family: Robot-Reg;
+    }
+
+}
+
+.appointment{
+    margin: 0 auto;
+    background-color: #29C3BE;
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    &__img{
+        position: relative;
+    }
+    &__blob3{
+        position: absolute;
+        z-index: 2;
+    }
+    &__blob2{
+        position: absolute;
+        bottom: 1px;
+    }
+    &__stylize1{
+        position: absolute;
+        z-index: 1;
+        bottom: 86px;
+    }
+    &__pup{
+        position: absolute;
+        bottom: 50px;
+    }
+    &__text{
+        width: 411px;
+        height: 129px;
+        padding-top: 114px;
+        color: #fff;
+        font-size: 36px;
+        font-family: Robot-Black;
+    }
+
+    &__button{
+        height: 48px;
+        width: 210px;
+        background-color: #F2726F;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &__link{
+        color: #fff;
+        font-size: 12px;
+        font-family: Robot-Bold;
+    }
+}
